@@ -1,0 +1,71 @@
+.container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  background-repeat: no-repeat;
+
+  max-width: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-head {
+  font-family: "Roboto";
+  color: #0f172a;
+}
+.card-container {
+  background-color: #cffafe;
+  padding: 10px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-con {
+  border-radius: 50px;
+}
+
+.head {
+  color: #1e293b;
+  font-family: "Roboto";
+}
+.para {
+  font-family: "Roboto";
+  color: 1e293b;
+}
+@media (main-width: 768px) {
+  .container {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+    background-repeat: no-repeat;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-head {
+    font-family: "Roboto";
+    color: #0f172a;
+  }
+  .card-container {
+    background-color: #cffafe;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img-con {
+    border-radius: 50px;
+  }
+
+  .head {
+    color: #1e293b;
+    font-family: "Roboto";
+  }
+  .para {
+    font-family: "Roboto";
+    color: 1e293b;
+  }
+}
